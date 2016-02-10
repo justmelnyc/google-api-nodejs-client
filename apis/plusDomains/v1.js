@@ -514,7 +514,7 @@ function Plusdomains(options) {
     insert: function(params, callback) {
       var parameters = {
         options: {
-          url: 'https://www.googleapis.com/plusDomains/v1/people/{userId}/media/{collection}',
+          url: 'https://www.googleapis.com/upload/plusDomains/v1/people/{userId}/media/{collection}',
           method: 'POST'
         },
         params: params,
